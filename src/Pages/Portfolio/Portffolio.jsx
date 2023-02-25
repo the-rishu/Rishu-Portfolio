@@ -12,7 +12,7 @@ const Portffolio = () => {
             <Portfoliocomponent 
                 pname = "Expense Tracker" 
                 line1="It is fronted responsive dynamic website ."
-                line2="It is used to maintain  expenses send on thing."
+                line2="It is used to maintain  expenses spend on thing."
                 line3="Technology : HTML , CSS, JS, ReactJs ."
                 url = "https://expense-tracker-the-rishu.vercel.app/"
             />

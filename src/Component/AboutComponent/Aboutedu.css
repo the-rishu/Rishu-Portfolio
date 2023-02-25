@@ -1,0 +1,40 @@
+.educationpart{
+    margin: 5px 0px;
+}
+.educationpart>span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.edutitle{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+  
+}
+.edutitle>:nth-child(1){
+   
+    font-size: 16px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.edutitle>:nth-child(2){
+    
+    font-size: 15px;
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+    
+    .edutitle>:nth-child(1),.edutitle>:nth-child(2){
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .edutitle>:nth-child(2){
+        width: 30%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    
+    .edutitle>:nth-child(1),.edutitle>:nth-child(2){
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

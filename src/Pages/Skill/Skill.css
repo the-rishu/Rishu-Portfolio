@@ -1,0 +1,24 @@
+
+.skill-heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+.skillsection{
+    /* border: solid yellow 2px; */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.skill-part1,.skill-part2{
+    width: 40%;
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+    .skillsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill-part1,.skill-part2{
+        width: 100%;
+        color: white;
+    }
+}

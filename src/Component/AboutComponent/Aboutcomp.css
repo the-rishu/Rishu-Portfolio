@@ -1,0 +1,14 @@
+.detail{
+    /* border: solid yellow 2px; */
+    margin: 10px 0px;
+}
+.detail>:nth-child(1){
+    font-size: 20px;
+    color: black
+}
+.detail>:nth-child(2){
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+

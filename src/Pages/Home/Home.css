@@ -1,0 +1,32 @@
+.homepage{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+     padding: 70px 0px; 
+}
+.home-section-1> :nth-child(2),.home-section-1> :nth-child(1){
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.home-section-2>img{
+    object-fit: contain;
+    border-radius: 30%;
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .home-section-1>:nth-child(2),.home-section-1> :nth-child(1){
+        font-weight: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+ @media screen and (min-width:320px) and (max-width:767px) {
+    .homepage{
+        /* border: solid black 2px; */
+        display: flex;
+        flex-direction: column-reverse;
+        height: 60%;
+    }
+    .home-section-2{
+        margin: auto;
+    }
+} 

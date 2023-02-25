@@ -56,7 +56,7 @@
 }
 @media screen and (min-width:320px) and (max-width:767px) {
     .form-div>input,.form-div>textarea{
-       width: 50%;
+       width: 90%;
        color: white;
    }
 

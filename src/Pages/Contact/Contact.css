@@ -61,8 +61,12 @@
    }
 
    .contact-footer>ul{
-    padding: 0px 20px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
     }
+    
 }
 @media screen and (min-width:768px) and (max-width:991px) {
     .form-div>textarea{

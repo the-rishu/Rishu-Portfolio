@@ -33,7 +33,9 @@
         width: 100%;
       }
       .resume{
-        height: 30px;
+        margin-top: 10px;
+        font-size: 15px;
+        height: 20px;
       }
 }
  @media screen and (min-width:768px) and (max-width:991px) {
